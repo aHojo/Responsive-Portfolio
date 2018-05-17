@@ -42,6 +42,7 @@ header {
     margin: 0 auto 0 auto;
     color: white;
     padding-top: 23px;
+    padding-bottom: 30px;
     text-align: center;
     width: 20%;
     background-color: #4aaaa5;
@@ -171,7 +172,7 @@ textarea{
     clear: both;
     padding: 10px 20px;
     margin: 40px auto;
-    width: 960px;
+    width: 70%;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     overflow: hidden;
@@ -270,8 +271,44 @@ textarea{
     margin-top: 30px;
 }
 
+@media only screen and (max-width: 1090px) {
+    #myName {
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .backgroundStyle {
         width: 500px;
+    }
+    header {
+        overflow: hidden;
+    }
+    #myName {
+        left:10%;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #navredirects ul {
+       position: absolute;
+       right: 5%;
+       bottom: 40%;
+    }
+    .abackgroundstyle2{
+        width: 75%;
+    }
+
+    #hangman, #RPGGame, #triviaGame, #RutgersInfoWidget, #RockPaperScissors {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        background-size: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+
+    }
+    .imgText {
+        width: 86%;
     }
 }
