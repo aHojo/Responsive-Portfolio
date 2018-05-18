@@ -115,6 +115,7 @@ form {
     color: #bfbfbf;
 }
 input {
+    height: 25px;
     width: 100%;
     
 }
@@ -305,8 +306,10 @@ textarea{
         background-size: auto;
         margin-bottom: 10px;
         margin-top: 10px;
-        
-
+    }
+    
+    p {
+        font-size: 12px;
     }
     .imgText {
         width: 86%;
